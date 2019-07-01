@@ -9,3 +9,15 @@ def projUV(U,V):
     proj = (float(vu)/uu)*U
     time.sleep(30)
     return proj
+
+
+
+
+
+
+
+
+
+def GS_2vectors(*argv):
+    for arg in argv:
+        U=arg-np.sum()
